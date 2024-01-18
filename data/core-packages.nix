@@ -1,4 +1,4 @@
-# Edit this configuration file to define what should be installed on
+ # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
@@ -22,8 +22,10 @@
     duf
     edid-decode
     font-manager
-    fsearch
+    # fsearch
+    glib
     gnome.dconf-editor
+    gnome.file-roller
     gnome.gnome-disk-utility
     gnome.gvfs
     hack-font
@@ -32,16 +34,17 @@
     hwinfo
     inxi
     killall
-    kitty
     lm_sensors
     lshw
     most
+    ncdu
     neofetch
     networkmanagerapplet
-    nomacs
+    # nomacs
+    noto-fonts
     numlockx
     ookla-speedtest
-    qbittorrent-qt5
+    #qbittorrent-qt5
     platinum-searcher
     polybar
     qt6Packages.qtstyleplugin-kvantum
@@ -51,12 +54,11 @@
     # sof-firmware
     # sshpass
     # sysz
-    # texlive
     volumeicon
     wget
     widevine-cdm
     xorg.xkill
-    yakuake
+    # yakuake
     zsh
     zsh-completions
     zsh-syntax-highlighting

@@ -6,7 +6,17 @@
 
 {
   environment.systemPackages = with pkgs; [
+    adobe-reader
+    # gnome.simple-scan
+    # ghostscript
+    # gutenprint
+    # libxcrypt
     pdfarranger
     pdftk
+    system-config-printer
+  ];
+  
+  nixpkgs.config.permittedInsecurePackages = [
+    "adobe-reader-9.5.5"
   ];
 }

@@ -2,6 +2,8 @@
 ! URxvt standard arcolinux theme - Reload with xrdb -merge ~/.Xresources
 ! or alias merge
 ! ------------------------------------------------------------------------------
+! Xft.dpi:   96
+Xft.dpi:   144
 
 ! general settings
 URxvt.saveLines:        50000

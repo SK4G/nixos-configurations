@@ -8,67 +8,60 @@
 
 {
   environment.systemPackages = with pkgs; [
-    #google-chrome
-    #wpsoffice
-    arc-kde-theme
+    # arc-kde-theme
     btop
     #ckb-next
-    dash
-    discord
-    eww
-    etcher
+    # dash
+    # discord
     evince
     feh
     # filezilla
     # firefox
-    flameshot
-    font-awesome
+    # flameshot
+    # font-awesome
     gimp
+    # chromium
+    google-chrome
     gnumake
-    gparted
-    grim
     haruna
     hunspell
     hunspellDicts.en_US
-    imlib2
-    inkscape
-    jetbrains-mono
-    kate
-    kdenlive
-    lolcat
-    lxappearance
-    mako
-    materia-kde-theme
-    micro
-    nitrogen
-    obs-studio
-    ocs-url
+    # imlib2
+    # inkscape
+    # jetbrains-mono
+    # kate
+    # kdenlive
+    # libreoffice-fresh
+    # lxappearance
+    # materia-kde-theme
+    # micro
+    # nitrogen
+    # obs-studio
     pavucontrol
     picom
-    protonvpn-cli
-    pywal
+    # protonvpn-cli
+    # pywal
     rofi
-    rslsync
-    sddm-kcm
-    simplescreenrecorder
-    spotify
-    swaybg
-    sxhkd
-    telegram-desktop
-    # vvave
-    variety
-    vivaldi
-    vivaldi-ffmpeg-codecs
-    vlc
-    waybar
+    # sddm-kcm
+    # simplescreenrecorder
+    # telegram-desktop
+    vvave
+    # variety
+    # vivaldi
+    # vivaldi-ffmpeg-codecs
+    # vlc
     # waydroid
-    wdisplays
-    wofi
+    # wpsoffice
     xorg.libX11.dev
     xorg.libXft
     xorg.libXinerama
     # xournalpp
-    yad
+    # yad
     # zoom
+
+    #### media
+    # jellyfin
+    # kodi
+    # plex
 ];
 }

@@ -6,8 +6,38 @@
 
 {
   environment.systemPackages = with pkgs; [
-    ventoy
-    virt-manager
+    # asciinema
+    # etcher
+    # easytag
+    resilio-sync
+    # sshpass
+    # ventoy
+    # virt-manager
+    # p7zip
+    gnome-disk-utility
+    gnome-keyring
+    gparted
+    guvcview
+    jq
+    # jsoncpp
+    imagemagick
+    # libmtp
+    # lsb-release
+    texliveBasic
+    unrar
+    unzip
+    usbimager
+    # xdotool
+    # xdg-desktop-portal
+    xdg-user-dirs
     yt-dlp
+
+    ###file management
+    # mtpfs
+    # udiskie
+
+    ###network
+    # avahi
+    # openresolv
 ];
 }

@@ -20,6 +20,14 @@
     ];
 
   environment.systemPackages = with pkgs; [
+    accountsservice
+    autorandr
+    brightnessctl
+    conky
+    dmenu
+    # luajitPackages.vicious
     picom
+    polkit
+    polkit_gnome
   ];
 }
